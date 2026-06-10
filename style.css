@@ -1,5 +1,9 @@
 *{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img{
+    width: 100;
 }
 
 .hero-image{
@@ -11,24 +15,16 @@
 }
 
 .hero-text{
-    color: whitesmoke;
+    color: white;
     position: absolute;
     text-align: center;
-    top: 180px;
-    width: 100%;
-    font-size: 4rem;
-} 
-
+    top: 280px;
+    width: 100;
+    font-size: 1rem;
+}
 
 .two-column{
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 1fr;
     gap: 50px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-}
-
-.info{
-    font-size: 1.25em;
 }
