@@ -3,7 +3,7 @@
 }
 
 img{
-    width: 100;
+    width: 100%;
 }
 
 .hero-image{
@@ -15,16 +15,24 @@ img{
 }
 
 .hero-text{
-    color: white;
+    color: rgb(255, 255, 255);
+    left: 0;
+    top: 160px;
+    width: 100%;
     position: absolute;
     text-align: center;
-    top: 280px;
-    width: 100;
-    font-size: 1rem;
+    font-size: 3rem;
 }
 
-.two-column{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+.two-column {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 50px;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.info{
+    font-size: 1.25em;
 }
