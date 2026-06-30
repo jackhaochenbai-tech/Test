@@ -23,6 +23,9 @@ img{
     position: absolute;
     text-align: center;
     font-size: 3rem;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #005EB8; 
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 .two-column {
@@ -41,7 +44,7 @@ img{
 .three-column {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-      gap: 100px;
+    gap: 50px;
     width: 80%;
     margin: auto;
     margin-top: 40px;
@@ -49,10 +52,11 @@ img{
 }
 
 .card{
-    background-color: aliceblue;
+    background-color: #005EB8;
 }
 
 .card-text{
     text-align: center;
-    color: aquamarine;
+    -webkit-text-stroke: 1px #002548;
+    color: white;
 }
