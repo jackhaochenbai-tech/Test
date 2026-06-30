@@ -41,14 +41,13 @@ img{
     font-size: 1.25em;
 }
 
-.three-column {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 50px;
+.three-column { 
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 100px; 
+  width: 80%; 
+  margin: auto; 
+  margin-top: 40px;
 }
 
 .card{
